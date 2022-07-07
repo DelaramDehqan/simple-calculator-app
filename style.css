@@ -1,0 +1,29 @@
+
+.container{
+    width: 500px;
+    height: 600;
+    background-color: blueviolet;
+  
+}
+.head{
+    width: 500px;
+    height: 200px;
+    background-color: aqua;
+}
+.total{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+.rowOne{
+    display: flex;
+}
+#refresh{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: red;
+    border: none;
+    color: width;
+    
+}
