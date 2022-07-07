@@ -19,6 +19,13 @@
     border-top-right-radius: 15px;
     text-align: center;
     color:#5F5959;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+ p {
+    font-size: 24px;
+    font-weight: bold;
 }
 .total{
     width: 480px;
@@ -56,4 +63,5 @@
 }
 .equal{
     background-color:#4FF703 !important;
+    color: white;
 }

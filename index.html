@@ -9,42 +9,47 @@
 </head>
 <body>
     <div class="container">
-        <div class="head"></div>
+        <div class="head">
+            <p></p>
+        </div>
         <div class="total">
             <div class="row">
                <input type="button" name="erase" value="C" id="refresh">
                <h2>JavaScript Calulator</h2>
             </div>
+            <form action="">
+
+            </form>
             <div class="row">
-                <input type="button" name="number" value="7" id="num">
-                <input type="button" name="number" value="8" id="num">
-                <input type="button" name="number" value="9" id="num">
-                <input type="button" name="action" value="+" id="num">
-                <input type="button" name="action" value="|X|" id="num">
-                <input type="button" name="action" value="ce" id="num">
+                <input type="button" name="seven" value="7" id="num" onclick="display('7')">
+                <input type="button" name="eight" value="8" id="num"  onclick="display('8')">
+                <input type="button" name="nine" value="9" id="num"  onclick="display('9')">
+                <input type="button" name="plus" value="+" id="num"  onclick="display('+')">
+                <input type="button" name="abs" value="|X|" id="num" onclick="mathOperation(name)">
+                <input type="button" name="ceil" value="ce" id="num" onclick="mathOperation(name)">
 
            </div>
            <div class="row">
-                <input type="button" name="number" value="4" id="num">
-                <input type="button" name="number" value="5" id="num">
-                <input type="button" name="number" value="6" id="num">
-                <input type="button" name="action" value="-" id="num">
-                <input type="button" name="action" value="√" id="num">
-                <input type="button" name="action" value="fl" id="num">
+                <input type="button" name="four" value="4" id="num"  onclick="display(four.value)">
+                <input type="button" name="five" value="5" id="num"  onclick="display('5')">
+                <input type="button" name="six" value="6" id="num"  onclick="display('6')">
+                <input type="button" name="minus" value="-" id="num"  onclick="display('-')">
+                <input type="button" name="sqrt" value="√" id="num" onclick="mathOperation(name)">
+                <input type="button" name="floor" value="fl" id="num" onclick="mathOperation(name)">
            </div>
            <div class="row">
-                <input type="button" name="number" value="1" id="num">
-                <input type="button" name="number" value="2" id="num">
-                <input type="button" name="number" value="3" id="num">
-                <input type="button" name="action" value="*" id="num">
-                <input type="button" name="action" value="r" id="num">
-                <input type="button" name="action" value="^" id="num">
+                <input type="button" name="one" value="1" id="num" onclick="display('1')">
+                <input type="button" name="two" value="2" id="num"  onclick="display('2')">
+                <input type="button" name="three" value="3" id="num"  onclick="display('3')">
+                <input type="button" name="multiplay" value="*" id="num" onclick="display('*')">
+                <input type="button" name="round" value="r" id="num" onclick="mathOperation(name)">
+                <input type="button" name="pow" value="^" id="num" onclick="display('^')">
            </div>
            <div class="row">
-                <input type="button" name="number" value="0" id="num">
-                <input type="button" name="number" value="." id="num">
-                <input type="button" name="number" value="/" id="num">
-                <input type="button" name="action" value="=" id="num" class="equal">
+                <input type="button" name="zero" value="0" id="num"  onclick="display('0')">
+                <input type="button" name="point" value="." id="num"  onclick="display('.')">
+                <input type="button" name="division" value="/" id="num"  onclick="display('/')">
+                <input type="button" name="equal" value="=" id="num" class="equal" >
            </div>
 
         </div>
