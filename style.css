@@ -40,6 +40,7 @@
     color: white;
     font-size: 30px;
     font-weight: bold;
+    cursor: pointer;
 
 }
 #num{
@@ -51,6 +52,7 @@
     font-size: 22px;
     font-weight: bolder;
     color: #5F5959;
+    cursor: pointer;
 }
 .equal{
     background-color:#4FF703 !important;
